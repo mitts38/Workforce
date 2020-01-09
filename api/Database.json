@@ -1,0 +1,102 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Window",
+            "year": 2016
+        },
+        {
+            "id": 3,
+            "model": "MacBook",
+            "year": 2019
+        },
+        {
+            "id": 4,
+            "model": "Window",
+            "year": 2019
+        }
+        
+        
+    
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "age": 25,
+            "departmentId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "deepak",
+            "lastName": "Sharma",
+            "computerId": 2,
+            "age": 30,
+            "departmentId": 4,
+            "locationId": 2
+        },
+
+        
+        {
+            "id": 1,
+            "firstName": "Brown",
+            "lastName": "Shewan",
+            "computerId": 3,
+            "age": 48,
+            "departmentId": 2,
+            "locationId": 3
+        },
+        
+        {
+            "id": 1,
+            "firstName": "Pao",
+            "lastName": "Shen",
+            "computerId": 4,
+            "age": 50,
+            "departmentId": 3,
+            "locationId": 1
+        }
+        
+    ],
+    "departments":[
+        {
+            "id": 1,
+            "name": "IT developin "
+        },
+        {
+            "id": 2,
+            "name": "IT Software Testing"
+        },
+        {
+            "id": 3,
+            "name": "IT Data Science "
+        },
+        {
+            "id": 4,
+            "name": " Marketing "
+        }
+
+    ],
+    "location":[
+        {
+            "id": 1,
+            "place": "Atlanta"
+        },
+        {
+            "id": 2,
+            "place": "Nashville"
+        },
+        {
+            "id": 3,
+            "place": "Memphis"
+        }
+    ]
+}
