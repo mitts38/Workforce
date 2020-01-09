@@ -46,7 +46,7 @@
 
         
         {
-            "id": 1,
+            "id": 3,
             "firstName": "Brown",
             "lastName": "Shewan",
             "computerId": 3,
@@ -56,7 +56,7 @@
         },
         
         {
-            "id": 1,
+            "id": 4,
             "firstName": "Pao",
             "lastName": "Shen",
             "computerId": 4,
@@ -97,6 +97,54 @@
         {
             "id": 3,
             "place": "Memphis"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Facebook"
+        },
+        {
+            "id": 3,
+            "name": "Google"
+        },
+        {
+            "id": 4,
+            "name": "Amazon"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1,
+            "rate": 45,
+            "contractLength": 180
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 2,
+            "rate": 50,
+            "contractLength": 180
+        },
+        {
+            "id": 3,
+            "customerId": 4,
+            "employeeId": 3,
+            "rate": 35,
+            "contractLength": 365
+        },
+        {
+            "id": 4,
+            "customerId": 3,
+            "employeeId": 2,
+            "rate": 80,
+            "contractLength": 365
         }
     ]
 }
